@@ -22,8 +22,6 @@ public class DmvSimulator {
         }
 
         System.out.println(number + " is up next. (That's you!) Please come to the counter");
+        System.out.println("Oh no! You don't have the required paperwork, please come back another day\nGoodbye!");
     }   
 }
-
-/*Call out each number one at a time, but be sure to start from the number directly after the one
-you gave to the user and then wrap around until the user’s number is finally called last*/
