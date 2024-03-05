@@ -22,6 +22,12 @@ public class DmvSimulator {
         }
 
         System.out.println(number + " is up next. (That's you!) Please come to the counter");
-        System.out.println("It would appear you don't have the required paperwork. What are you, stupid?\nYou'll have to start all over now! HAHAHAHA!!!");
+
+        ran = random.nextInt(101 - 1) + 1;
+        if (ran == 100) { //random chance of it working out
+            System.out.println("It would appear you have the right paperwork! You are all set! Have a good day!");
+        } else {
+            System.out.println("It would appear you don't have the required paperwork. What are you, stupid?\nYou'll have to start all over now! HAHAHAHA!!!");
+        }
     }   
 }
