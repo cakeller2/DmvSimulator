@@ -14,7 +14,7 @@ public class DmvSimulator {
         int number = ran; 
 
         for (int i = 1; (ran + i) != number; i++) {
-            if ((ran + i) > 100) {
+            if ((ran + i) > 200) {
                 ran = 0;
                 i = 1;
             }
