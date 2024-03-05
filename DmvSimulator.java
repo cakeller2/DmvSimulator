@@ -22,6 +22,6 @@ public class DmvSimulator {
         }
 
         System.out.println(number + " is up next. (That's you!) Please come to the counter");
-        System.out.println("Oh no! You don't have the required paperwork, please come back another day\nGoodbye!");
+        System.out.println("It would appear you don't have the required paperwork. What are you, stupid?\nGoodbye!");
     }   
 }
